@@ -1,4 +1,6 @@
 #include "sist.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 SistLinear * inciaSist(int n) {
     SistLinear * sl = (SistLinear *) malloc(sizeof(SistLinear));

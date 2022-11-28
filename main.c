@@ -5,8 +5,6 @@
 #include "sist.h"
 #include "edo.h"
 
-#define e 2.718281828459045235360287
-
 void gaussSeidel(edo * edoeq, double * y) {
     int n = edoeq->n;
     double h, xi, bi, yi, d, di ,ds;

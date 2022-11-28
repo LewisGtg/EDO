@@ -1,4 +1,9 @@
 #include "edo.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+#define e 2.718281828459045235360287
 
 // Inicializa Edo
 edo * iniciaEdo(int n, double a, double b, double ya, double yb, double (p) (double), double (q) (double), double (r) (double)) {
